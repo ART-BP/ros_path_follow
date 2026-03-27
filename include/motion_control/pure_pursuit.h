@@ -23,7 +23,7 @@ class PurePursuit {
 public:
     PurePursuit(double look_ahead_distance, PID* xpid, PID* ypid, PID* thetapid);
 
-    bool isGoalReached(const point2D& current_position, const point2D& goal_position, double threshold = 0.1);
+    bool isGoalReached(const point2D& current_position, const point2D& goal_position, double threshold);
 
     bool isGoalReached(const point2D& current_position, const point2D& goal_position);
 
